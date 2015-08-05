@@ -1,8 +1,9 @@
-.anchor:before {
-    display: block;
-    content: "";
-    height: 100px;
-    margin: -100px 0 0;
+/* Header
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+header {
+  text-align: center;
+  margin: 200px 0 200px 0;
 }
 
 /* Navigation Bar
@@ -51,12 +52,11 @@ hr {
   margin: 100px 0;
 }
 
-/* Header
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-header {
-  text-align: center;
-  margin: 200px 0 200px 0;
+.anchor:before {
+    display: block;
+    content: "";
+    height: 100px;
+    margin: -100px 0 0;
 }
 
 /* Footer
