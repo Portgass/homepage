@@ -1,0 +1,53 @@
+/* Navigation Bar
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+nav {
+	width:100%;
+  left: 0;
+  background: rgba(255, 255, 255, 1);
+	height: 4em;
+	line-height: 4em;
+	border-color: rgba(0, 0, 0, 0.1);
+  border-style: solid;
+  border-width: 1px 0 1px 0;
+	text-align: center;
+  margin-bottom: 100px;
+}
+
+nav ul li {
+  text-transform: uppercase;
+  display: inline-block;
+  font-weight: bold;
+  margin: 0 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 1);
+}
+
+/* Content
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#content {
+  position: absolute;
+  top: 100%;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+hr {
+  color: rgba(0, 0, 0, 0.1);
+  margin: 100px 0;
+}
+
+/* Header
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+header {
+  text-align: center;
+  margin: 200px 0 200px 0;
+}
